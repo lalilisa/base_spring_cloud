@@ -1,0 +1,12 @@
+
+server:
+  port: 8081
+
+springdoc:
+  api-docs:
+    path: /swagger/api-docs
+  swagger-ui:
+    path: /swagger/api-docs-ui
+    groups-order: desc
+    url: /swagger/api-docs
+    enabled: true
